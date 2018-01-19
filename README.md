@@ -1,3 +1,3 @@
 #This is my first project on which in R....
-priblem<-my problen is that i can't able to minimize the legend size so that I can eadily visualize the entire grph.
+problem<-my problen is that i can't able to minimize the legend size so that I can eadily visualize the entire grph.
 SO, please someone help me on this..
