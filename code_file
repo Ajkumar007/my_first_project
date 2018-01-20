@@ -1,0 +1,18 @@
+#I have to plot the year wise relationship among beef,Turkey and pork in graphical manner
+#and below is my code...
+
+attach(Poultry_consumption)
+plot(Year,Beef,type = "b",col="red",
+     pch=17,lty=1,ylim = c(0,100),
+     main="Year vs Stuff Consumption",ylab="Consumption",xlab="Year")
+
+lines(Year,Pork,type = "b",col="blue",
+      pch=16,lty=2)
+
+lines(Year,Turkey,type = "b",col="green",
+      pch=15,lty=3)
+
+legend("topright",inset = 0.01,title = "Animal Type",c("Beef","Pork","Turkey"),
+       lty = c(1,2,3),pch = c(17,16,15),col = c("red","blue","green"))
+
+detach(Poultry_consumption)
